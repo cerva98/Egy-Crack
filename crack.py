@@ -14,7 +14,7 @@ def generate_ethereum_wallet(existing_addresses):
             existing_addresses.add(address)
             return address, private_key
 
-def load_addresses(filename="first_half1.txt"):
+def load_addresses(filename="eth.txt"):
     addresses_set = set()
     try:
         print(f"Loading addresses from {filename}...")
